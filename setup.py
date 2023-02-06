@@ -51,33 +51,25 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Jamie Counsell',
     author_email='jamiecounsell@me.com',
-    url='https://github.com/jamiecounsell/django-des',
+    url='https://github.com/prefeiturasp/django-des-fork',
     packages=[
         'des',
     ],
     include_package_data=True,
     install_requires=[
-        'django-solo==1.1.3'
+        'django-solo==2.0.0'
     ],
     license="MIT",
     zip_safe=False,
     keywords='django-des',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
-        'Framework :: Django',
-        'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.9',
-        'Framework :: Django :: 1.10',
-        'Framework :: Django :: 1.11',
-        'Framework :: Django :: 2.0',
+        'Framework :: Django :: 3.2',
+        'Framework :: Django :: 4.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.8',
     ],
 )
